@@ -10,7 +10,7 @@ import tensorflow as tf
 
 
 
-df=pd.read_csv("framingham.csv")
+df=pd.read_csv("datasets/framingham.csv")
 df.education=df.education.fillna(df.education.mean())
 df.cigsPerDay =df.cigsPerDay.fillna(df.cigsPerDay.mean())
 df.BPMeds =df.BPMeds.fillna(df.BPMeds.mean())

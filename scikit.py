@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
-df=pd.read_csv("Student_Marks.csv")
+df=pd.read_csv("datasets/Student_Marks.csv")
 data=df.to_numpy()
 #data=np.delete(data,0,1)
 Y_train=np.delete(data,0,1)

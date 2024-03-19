@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from copy import deepcopy
 import math
 
-df=pd.read_csv("Student_Marks.csv")
+df=pd.read_csv("datasets/Student_Marks.csv")
 data=df.to_numpy()
 #data=np.delete(data,0,1)
 Y_train=np.delete(data,0,1)
